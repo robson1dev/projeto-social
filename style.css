@@ -30,27 +30,23 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background: url('imagens/frame-iphone.png');
+    background: url('imagens/frame-iphone.png') no-repeat
+    center fixed;
+    background-size: cover;
 
-    width: 310px;
+    width: 311px;
     height: 625px;
 }
 
-#tela{
-    position: relative;
+iframe#tela{
+    position: absolute;
     top: 81px;
-    left: 24px;
+    left: 22px;
 
-    width: 263px;
+    width: 267px;
     height: 469px;
 }
 
-#tela{
-   position: relative;
-   left: 16px;
-
-   width: 271px;
-}
 #nav{
     text-align: right;
 }
@@ -68,4 +64,3 @@ a > img:hover{
     padding: 5px;
     transform: translate(-8px);
 }
-
