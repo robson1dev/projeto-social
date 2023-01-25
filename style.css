@@ -44,3 +44,28 @@ main{
     width: 263px;
     height: 469px;
 }
+
+#tela{
+   position: relative;
+   left: 16px;
+
+   width: 271px;
+}
+#nav{
+    text-align: right;
+}
+a > img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    
+    box-shadow: 3px 3px 3px black;
+}
+
+a > img:hover{
+    border: 1px solid white;
+    transition: all 1.3s;
+    padding: 5px;
+    transform: translate(-8px);
+}
+
